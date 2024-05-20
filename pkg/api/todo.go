@@ -1,7 +1,7 @@
 package api
 
 import (
-	"go-gin-todo/pkg/controller"
+	"go-gin-todo/internal/interface/http/controller"
 
 	"github.com/gin-gonic/gin"
 )
