@@ -1,18 +1,18 @@
 package task
 
 import (
-	"go-gin-todo/internal/interface/domain/common"
+	"go-gin-todo/internal/domain/common"
 )
 
-type ID struct {
+type Id struct {
 	*common.UUID
 }
 
-func NewTodoId() (*ID, error) {
+func NewTodoId() (*Id, error) {
 	id, err := common.GenerateUUID()
 	if err != nil {
 		return nil, err
 	}
-	i := ID{id}
+	i := Id{id}
 	return &i, nil
 }

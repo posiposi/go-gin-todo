@@ -3,7 +3,7 @@ package task
 import "time"
 
 type Task struct {
-	ID        *ID
+	Id        *Id
 	Title     *Title
 	Status    *Status
 	DueDate   *DueDate

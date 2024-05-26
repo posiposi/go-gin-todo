@@ -16,7 +16,7 @@ func NewRouter() *gin.Engine {
 		v1.GET("/hello", controller.HelloWorld)
 
 		// todo一覧表示
-		v1.GET("/todos", controller.PrintTestWord)
+		v1.GET("/todos", controller.IndexTodoList)
 	}
 
 	return router
