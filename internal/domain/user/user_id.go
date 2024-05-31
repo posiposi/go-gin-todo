@@ -8,7 +8,7 @@ type UserId struct {
 	*common.UUID
 }
 
-func NewUserIdd() (*UserId, error) {
+func NewUserId() (*UserId, error) {
 	id, err := common.GenerateUUID()
 	if err != nil {
 		return nil, err

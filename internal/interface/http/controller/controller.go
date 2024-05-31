@@ -15,3 +15,7 @@ func PrintTestWord(c *gin.Context) {
 	responseMessage := "これはテスト用出力です。"
 	c.String(successResponseCode, responseMessage)
 }
+
+func IndexTodoList(c *gin.Context) {
+
+}
